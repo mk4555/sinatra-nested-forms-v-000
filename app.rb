@@ -11,7 +11,7 @@ module FormsLab
   end
 
   post '/pirates' do
-
+    erb :show
   end
     # code other routes/actions here
 
