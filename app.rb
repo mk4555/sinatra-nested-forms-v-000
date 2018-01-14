@@ -10,9 +10,9 @@ module FormsLab
     erb :'pirates/new'
   end
   #
-  # post '/pirates' do
-  #   erb :show
-  # end
+  post '/pirates' do
+    erb :show
+  end
     # code other routes/actions here
 
   end
