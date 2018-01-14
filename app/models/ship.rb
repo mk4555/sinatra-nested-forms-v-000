@@ -5,5 +5,7 @@ class Ship
 
   end
 
-
+  def self.all
+    @@all
+  end
 end
