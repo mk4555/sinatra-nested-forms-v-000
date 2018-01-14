@@ -1,7 +1,8 @@
 class Ship
   attr_accessor :name, :type, :booty
   @@all = []
-  def initialize
+
+  def initialize(params)
 
   end
 
